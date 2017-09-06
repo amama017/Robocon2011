@@ -1,0 +1,16 @@
+main
+	Lifter_downward
+	Rotate_Right
+		Reset_PWM
+			Init_PWM
+		PWM_C2
+		PWM_C1
+		Init_PWM
+	Lifter_upward
+	Track_Line_forward
+		PWM_C2
+		PWM_C1
+		Reset_PWM
+			Init_PWM
+	Init_Main
+		Init_PWM
